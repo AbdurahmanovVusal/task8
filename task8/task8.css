@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:auto;
+}
+.header-up{
+        
+        height: 4rem;
+        padding: 5px 6rem 5px 6rem;
+        background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6db3f2+0,54a3ee+0,3690f0+64,1e69de+100 */
+        background: #6db3f2; /* Old browsers */
+        background: -moz-linear-gradient(left,  #6db3f2 0%, #54a3ee 0%, #3690f0 64%, #1e69de 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left,  #6db3f2 0%,#54a3ee 0%,#3690f0 64%,#1e69de 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right,  #6db3f2 0%,#54a3ee 0%,#3690f0 64%,#1e69de 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=1 ); /* IE6-9 */;
+}
+.header-up .icon-left ul li{
+    float:left;
+    padding: 10px;
+}
+.header-up .icon-left ul{
+    float:left;
+    list-style-type:none;
+    padding:10px;
+}
+
+.header-up .faq-right ul li{
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    padding: 12px;
+}
+
+.header-down img{
+    height: 3rem;
+    width: 3rem;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.header-down .medleft{
+    padding: 5px 6rem 5px 6rem;
+}
+
+.header-down .homeRight ul li{
+    float: right;
+    margin: 0 10px;
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 10px;
+}
+.header-down .homeRight ul li a{
+    text-decoration: none;
+}
+.header-down .homeRight ul li{
+    padding-top: 1rem;
+}
+
+.header-down .homeRight a{
+    padding-right: 1rem;
+}
+
+/*main*/
+
+main .logo{
+    margin: 2rem;
+    height: 3rem;
+    width: 3rem;
+}
+main .container{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    }
+main .container h3{
+    color: gray;
+    padding: 2rem 0 3rem 0;
+}
+
+
+.mainin .parent .docs{
+    width: 24%;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+}
+.mainin .docs img{
+    height:100%;
+    width: 100%;
+}
